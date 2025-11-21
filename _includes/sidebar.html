@@ -1,14 +1,33 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+<div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src= "{{ s.image }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-    {% endfor %}
+  {% for s in page.sidebar %}
+  {% if s.image %}
+  <img src="{{ s.image }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
   {% endif %}
-  </div>
+  {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+  {% if s.text %}{{ s.text | markdownify }}{% endif %}
+  {% endfor %}
+  {% endif %}
+</div>
 {% endif %}
+
+<!-- <div class="sidebar">
+  {% if page.lang == 'zh' %}
+  {% assign author_data = site.data.author_zh %}
+  {% else %}
+  {% assign author_data = site.data.author_en %}
+  {% endif %}
+  <div class="sidebar__author">
+    <img src="{{ site.author.avatar | prepend: '/' }}" alt="{{ author_data.name }}">
+    <h1>{{ author_data.name }}</h1>
+    <p>{{ author_data.affiliation }}</p>
+    <p>{{ author_data.location }}</p>
+    <ul class="sidebar__social-list">
+      <li><a href="mailto:{{ author_data.email }}"><i class="fas fa-envelope"></i> Email</a></li>
+      <li><a href="{{ author_data.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a></li>
+
+</ul>
+  </div> -->
+<!-- </div> -->

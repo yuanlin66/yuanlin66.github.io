@@ -1,0 +1,15 @@
+# _data/locales.yml
+
+en:
+  site_title: "Lin Yuan"
+  author:
+    name: "Lin Yuan"
+    bio: "Chongqing University of Posts and Telecommunications"
+    location: "Chongqing, China"
+
+zh:
+  site_title: "袁霖"
+  author:
+    name: "袁霖"
+    bio: "重庆邮电大学"
+    location: "中国重庆"

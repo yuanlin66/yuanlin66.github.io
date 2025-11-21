@@ -1,4 +1,8 @@
 ---
+layout: default  # 对应英文页面的布局
+title: About
+permalink: /about/  # 英文页面路径
+lang: en  # 关键：指定为英文
 permalink: /
 title: ""
 excerpt: ""
@@ -15,44 +19,177 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+
+
 <span class='anchor' id='about-me'></span>
 
-Lin Yuan received the B.Eng. degree in electronic science and technology from the University of Electronic Science and Technology of China (UESTC) in 2011, the M.Sc. degree in electrical engineering from the École Polytechnique Fédérale de Lausanne (EPFL) in 2013, and the Ph.D. degree in electrical engineering from the École Polytechnique Fédérale de Lausanne (EPFL) in 2017, respectively. He is currently an associate professor of the School of Cyber Security and Information Law, Chongqing University of Posts and Telecommunications (CQUPT). Before joining CQUPT, he had the experince working as a skilled engineer at Irdeto BV (Hoofddrop, the Netherlands) between October 2017 and December 2019, and Huawei 2012 Labs (Hangzhou, Zhejiang) between March 2020 and June 2021. His research interests include image and video processing, computer vision, and multimedia privacy protection and forensics.
+Yuan Lin, Ph.D., associate professor, master's supervisor, deputy director of the Department of Information Security, School of Cyberspace Security and Information Law, Chongqing University of Posts and Telecommunications, forensic appraiser of the Forensic Appraisal Center of Chongqing University of Posts and Telecommunications, affiliated to the Chongqing Key Laboratory of Image Cognition (Gao Xinboprofessor's research group). He graduated from the University of Electronic Science and Technology of China with a bachelor's degree and a master's degree from the Federal Institute of Technology of Lausanne (EPFL) under the tutelage of Prof. Touradj Ebrahimi (JPEG Chairman). His research interests include multimedia security, privacy protection, image and video processing, etc. He has published more than 30 academic papers in conferences and journals such as TIFS, TCSVT, MM, PR, etc., obtained 4 authorized patents, presided over 1 National Natural Science Foundation of China project and 4 provincial and ministerial projects, participated in the National Natural Science Foundation of China Innovation Research Group, Regional Joint Fund Project, EU Horizon 2020, and Swiss National Foundation and many other projects. He is currently a member of the Digital Media Forensics and Security Professional Committee of the Chinese Society of Image and Graphics. He has been engaged in video-related technology research and development at Technicolor Institute Hannover in Germany, Irdeto BV's R&D headquarters in the Netherlands, and Huawei 2012 Laboratory Central Media Technology Institute.
+<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
-
-# 🔥 News
+<!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='/images/MLEP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[MLEP: Multi-granularity Local Entropy Patterns for Generalized AI-generated Image Detection](https://neurips.cc/virtual/2025/loc/san-diego/poster/119336)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Lin Yuan**, Xiaowan Li, Yan Zhang, Jiawei Zhang, Hongbo Li, Xinbo Gao
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2025</div><img src='/images/SBAE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
+[Deepfake Detection Leveraging Self-Blended Artifacts Guided by Facial Embedding Discrepancy](https://www.ieee.org/)
+
+Shanshan Han, Shuang Li, Shuodi Wang, **Lin Yuan**, Yan Zhang, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computer Science 2025</div><img src='/images/makeup.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Adversarial Face Privacy Protection Based on Makeup Style Patch Activation](https://www.jsjkx.com/CN/1002-137X/home.shtml)
+
+**Lin Yuan**,  Kaile Hao,  Jiawei Zhang,  Mingrui Zhu,  Nannan Wang, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2025</div><img src='/images/BB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Big Brother Is Watching: Proactive Deepfake Detection via Learnable Hidden Face](https://www.ieee.org/)
+
+Hongbo Li, Shangchao Yang, Ruiyang Xia, **Lin Yuan**, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ScienceDirect 2025</div><img src='/images/iFADIT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[iFADIT: Invertible Face Anonymization via Disentangled Identity Transform](www.elsevier.com/locate/pr)
+
+**Lin Yuan**, Kai Liang, Xiong Li, Tao Wu, Nannan Wang, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2024</div><img src='/images/WSD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Improving Image-Text Matching by Integrating Word Sense Disambiguation](https://www.ieee.org/)
+
+Xiao Pu, Ping Yang, **Lin Yuan**, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2024</div><img src='/images/FEDG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Invertible Image Obfuscation for Facial Privacy Protection via Secure Flow](https://www.ieee.org/)
+
+**Lin Yuan**, Kai Liang, Xiao Pu, Yan Zhang, Jiaxu Leng, Tao Wu, Nannan Wang, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2024</div><img src='/images/profacec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PRO-Face C: Privacy-Preserving Recognition of Obfuscated Face via Feature Compensation](https://www.ieee.org/)
+
+**Lin Yuan**, Wu Chen, Xiao Pu, Yan Zhang, Hongbo Li, Yushu Zhang, Xinbo Gao, Touradj Ebrahimi
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ScienceDirect 2024</div><img src='/images/MIC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MiC: Image-text Matching in Circles with cross-modal generative knowledge enhancement](www.elsevier.com/locate/knosys)
+
+Xiao Pu, Yuwen Chen, **Lin Yuan**, Yan Zhang, Hongbo Li, Liping Jing, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://scholar.google.com/citations?user=I8keojsAAAAJ&hl=en) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM 2022</div><img src='/images/PROface.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PRO-Face: A Generic Framework for Privacy-preserving Recognizable Obfuscation of Face Images](https://doi.org/10.1145/3503161.3548202)
+
+**Lin Yuan**, Linguo Liu, Xiao Pu, Zhao Li, Hongbo Li, Xinbo Gao
+
+<!-- project的链接，到github -->
+[**Project**](https://github.com/fkeufss/PRO-Face) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+
+<!-- 描述论文大致信息 -->
+<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+
+<!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2014.3 -- 2017.7*, École Polytechnique Fédérale de Lausanne (EPFL), Ph.D in Electrical Engineering, Lausanne, Switzerland.
+- *2011.9 -- 2013.10*, École Polytechnique Fédérale de Lausanne (EPFL), M.S. in Electrical Engineering, Lausanne, Switzerland. 
+- *2007.9 -- 2011.7*, University of Electronic Science and Technology of China (UESTC), B.S. in Electronic Science and Technology, Chengdu, China.
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Work Experience
+<!-- - *2012.7 -- 2013.8*, [Lorem](https://github.com/), China. -->
+- *2021.07 - Now*, [Chongqing University of Posts and Telecommunications], Chongqing,China.
+- *2020.03 - 2021.06*, [Huawei], Hangzhou,Zhejiang,China.
+- *2017.10 - 2019.12*, [Irdeto BV], Hoofddorp,The Netherlands.
+- *2012.07 - 2013.08*, [Technicolor], Hannover,Germany.
+

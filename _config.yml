@@ -6,8 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+
+relative_urls: false
+
 title                    : "Lin Yuan"
-description              : "aaa "
+# description              : ""
 repository               : "yuanlin66/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Lin Yuan"
-  avatar           : "images/yuanlin.png"
+  avatar           : "/images/yuanlin.png"
   bio              : "Chongqing University of Posts and Telecommunications"
   location         : "Chongqing, China"
   employer         :

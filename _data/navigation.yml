@@ -1,22 +1,20 @@
-# main links links
+
 main:
+  # 首页项：对应英文页面的首页链接和样式
+  - title: "Homepage"
+    url: "/#about-me"  # 英文首页锚点（和你原硬编码链接一致）
+    class: "masthead__menu-item--lg masthead__menu-home-item"  # 保持原大标题样式
   - title: "About Me"
     url: "/#about-me"
-
   - title: "News"
     url: "/#-news"
-
   - title: "Publications"
     url: "/#-publications"
-
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
-
   - title: "Educations"
     url: "/#-educations"
-
   - title: "Invited Talks"
     url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Work Experience"
+    url: "/#-Work Experience"

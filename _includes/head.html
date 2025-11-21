@@ -10,10 +10,12 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<!-- 正确的根目录绝对路径 -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/academicons.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>
+
+<!-- 将 <base> 标签直接放在这里，不要嵌套在另一个 <head> 里 -->
+<base target="_blank">

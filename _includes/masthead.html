@@ -1,13 +1,53 @@
+<!-- <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button>
+          <div class="navicon"></div>
+        </button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a
+              href="#about-me">Homepage</a></li>
+          {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div> -->
+
+
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button>
+          <div class="navicon"></div>
+        </button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          <!-- 根据语言加载导航数据  -->
+          {% if page.lang == 'zh' %}
+          {% assign nav = site.data.navigation_zh.main %}
+          {% else %}
+          {% assign nav = site.data.navigation.main %}
+          {% endif %}
+
+          <!-- 循环输出导航链接 -->
+          {% for link in nav %}
+          <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+
+          <!-- 语言切换按钮 -->
+          <li class="masthead__menu-item">
+            {% if page.lang == 'zh' %}
+            <a href="/about/" class="language-link">English</a>
+            {% else %}
+            <a href="/about-zh/" class="language-link">中文</a>
+            {% endif %}
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
