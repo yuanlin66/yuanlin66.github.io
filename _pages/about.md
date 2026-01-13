@@ -46,10 +46,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2025</div><img src='/images/SBAE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2025</div><img src='/images/SBAE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deepfake Detection Leveraging Self-Blended Artifacts Guided by Facial Embedding Discrepancy](https://www.ieee.org/)
+[Deepfake Detection Leveraging Self-Blended Artifacts Guided by Facial Embedding Discrepancy](https://ieeexplore.ieee.org/document/11068978)
 
 Shanshan Han, Shuang Li, Shuodi Wang, **Lin Yuan**, Yan Zhang, Xinbo Gao
 
@@ -60,10 +60,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computer Science 2025</div><img src='/images/makeup.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">计算机科学 2025</div><img src='/images/makeup.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Adversarial Face Privacy Protection Based on Makeup Style Patch Activation](https://www.jsjkx.com/CN/1002-137X/home.shtml)
+[Adversarial Face Privacy Protection Based on Makeup Style Patch Activation](https://www.jsjkx.com/CN/10.11896/jsjkx.241200001)
 
 **Lin Yuan**,  Kaile Hao,  Jiawei Zhang,  Mingrui Zhu,  Nannan Wang, Xinbo Gao
 
@@ -73,10 +73,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2025</div><img src='/images/BB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SPL 2025</div><img src='/images/BB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Big Brother Is Watching: Proactive Deepfake Detection via Learnable Hidden Face](https://www.ieee.org/)
+[Big Brother Is Watching: Proactive Deepfake Detection via Learnable Hidden Face](https://ieeexplore.ieee.org/document/11005639)
 
 Hongbo Li, Shangchao Yang, Ruiyang Xia, **Lin Yuan**, Xinbo Gao
 
@@ -86,10 +86,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ScienceDirect 2025</div><img src='/images/iFADIT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition 2025</div><img src='/images/iFADIT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[iFADIT: Invertible Face Anonymization via Disentangled Identity Transform](www.elsevier.com/locate/pr)
+[iFADIT: Invertible Face Anonymization via Disentangled Identity Transform](https://www.sciencedirect.com/science/article/abs/pii/S0031320325004674)
 
 **Lin Yuan**, Kai Liang, Xiong Li, Tao Wu, Nannan Wang, Xinbo Gao
 
@@ -100,10 +100,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2024</div><img src='/images/WSD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SPL 2024</div><img src='/images/WSD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Improving Image-Text Matching by Integrating Word Sense Disambiguation](https://www.ieee.org/)
+[Improving Image-Text Matching by Integrating Word Sense Disambiguation](https://ieeexplore.ieee.org/document/10693344)
 
 Xiao Pu, Ping Yang, **Lin Yuan**, Xinbo Gao
 
@@ -115,10 +115,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2024</div><img src='/images/FEDG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2024</div><img src='/images/FEDG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Invertible Image Obfuscation for Facial Privacy Protection via Secure Flow](https://www.ieee.org/)
+[Invertible Image Obfuscation for Facial Privacy Protection via Secure Flow](https://ieeexplore.ieee.org/document/10366303)
 
 **Lin Yuan**, Kai Liang, Xiao Pu, Yan Zhang, Jiaxu Leng, Tao Wu, Nannan Wang, Xinbo Gao
 
@@ -129,10 +129,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE 2024</div><img src='/images/profacec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS 2024</div><img src='/images/profacec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PRO-Face C: Privacy-Preserving Recognition of Obfuscated Face via Feature Compensation](https://www.ieee.org/)
+[PRO-Face C: Privacy-Preserving Recognition of Obfuscated Face via Feature Compensation](https://ieeexplore.ieee.org/document/10499238)
 
 **Lin Yuan**, Wu Chen, Xiao Pu, Yan Zhang, Hongbo Li, Yushu Zhang, Xinbo Gao, Touradj Ebrahimi
 
@@ -143,10 +143,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ScienceDirect 2024</div><img src='/images/MIC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognitiont 2024</div><img src='/images/MIC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MiC: Image-text Matching in Circles with cross-modal generative knowledge enhancement](www.elsevier.com/locate/knosys)
+[MiC: Image-text Matching in Circles with cross-modal generative knowledge enhancement](https://www.sciencedirect.com/science/article/abs/pii/S0950705124001382)
 
 Xiao Pu, Yuwen Chen, **Lin Yuan**, Yan Zhang, Hongbo Li, Liping Jing, Xinbo Gao
 
@@ -156,10 +156,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM 2022</div><img src='/images/PROface.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2022</div><img src='/images/PROface.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PRO-Face: A Generic Framework for Privacy-preserving Recognizable Obfuscation of Face Images](https://doi.org/10.1145/3503161.3548202)
+[PRO-Face: A Generic Framework for Privacy-preserving Recognizable Obfuscation of Face Images](https://dl.acm.org/doi/10.1145/3503161.3548202)
 
 **Lin Yuan**, Linguo Liu, Xiao Pu, Zhao Li, Hongbo Li, Xinbo Gao
 
